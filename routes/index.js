@@ -153,5 +153,7 @@ router.delete('/users/:userId(\\d+)/favourites/:quizId(\\d+)',
     sessionController.adminOrMyselfRequired,
     favouriteController.del);
 
+router.get('/quizzes/randomplay', quizController.randomplay);
+router.get('/quizzes/randomcheck/:quizId(\\d+)', quizController.randomcheck);
 
 module.exports = router;

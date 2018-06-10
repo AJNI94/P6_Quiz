@@ -22,13 +22,17 @@
   },
   "dependencies": {
     "body-parser": "~1.18.2",
+<<<<<<< HEAD
     "cloudinary": "^1.9.1",
     "connect-session-sequelize": "^5.0.1",
+=======
+    "connect-session-sequelize": "^5.2.1",
+>>>>>>> 3aa814baa8dc430ff19367792d19d79c3090aefc
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.15.5",
-    "express-flash": "0.0.2",
+    "express-flash": "git://github.com/RGBboy/express-flash.git",
     "express-partials": "^0.3.0",
     "express-session": "^1.15.6",
     "method-override": "^2.3.10",
